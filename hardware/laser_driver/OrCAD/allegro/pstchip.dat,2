@@ -1,0 +1,467 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Jul-12-2016 at 00:44:35}
+primitive 'C_GENERIC_C0805_0.1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_Generic';
+    JEDEC_TYPE='c0805';
+    VALUE='0.1uF';
+  end_body;
+end_primitive;
+primitive 'C_GENERIC_C0805_10UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_Generic';
+    JEDEC_TYPE='c0805';
+    VALUE='10uF';
+  end_body;
+end_primitive;
+primitive 'C_GENERIC_C0805_10PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_Generic';
+    JEDEC_TYPE='c0805';
+    VALUE='10pF';
+  end_body;
+end_primitive;
+primitive 'C_GENERIC_C0805_4.7UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_Generic';
+    JEDEC_TYPE='c0805';
+    VALUE='4.7uF';
+  end_body;
+end_primitive;
+primitive 'C_GENERIC_C0805_1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_Generic';
+    JEDEC_TYPE='c0805';
+    VALUE='1uF';
+  end_body;
+end_primitive;
+primitive 'DIODE SCHOTTKY_0_SOD-123_SS14';
+  pin
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE SCHOTTKY_0';
+    JEDEC_TYPE='sod-123';
+    VALUE='SS14';
+  end_body;
+end_primitive;
+primitive 'HEADER 4_WAFER1X4-2_54MM_HEADER';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 4';
+    JEDEC_TYPE='WAFER1X4-2_54MM';
+    VALUE='HEADER 4';
+  end_body;
+end_primitive;
+primitive 'HEADER 3_LASER_HEADER 3';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 3';
+    JEDEC_TYPE='laser';
+    VALUE='HEADER 3';
+  end_body;
+end_primitive;
+primitive 'L_2.2UH-1.48A_CMS_L1008_27UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='L_2.2uH-1.48A_CMS';
+    JEDEC_TYPE='L1008';
+    VALUE='27uH';
+  end_body;
+end_primitive;
+primitive 'NPN_0_SOT-23_MMBT3904';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='NPN_0';
+    JEDEC_TYPE='sot-23';
+    VALUE='MMBT3904';
+  end_body;
+end_primitive;
+primitive 'TM3401_SOT-23_AO3401';
+  pin
+    'GATE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'SOURCE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'DRAIN':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TM3401';
+    JEDEC_TYPE='sot-23';
+    VALUE='AO3401';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_10K 1%_1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='10K 1%';
+    TOL='1%';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_NC_1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='NC';
+    TOL='1%';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_1K 1%_1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='1K 1%';
+    TOL='1%';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_1M 1%_1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='1M 1%';
+    TOL='1%';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_1R 0.1%_0.1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='1R 0.1%';
+    TOL='0.1%';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_33K 1%_1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='33K 1%';
+    TOL='1%';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_6K8 1%_1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='6K8 1%';
+    TOL='1%';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_100K 1%_1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='100K 1%';
+    TOL='1%';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_0R_1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='0R';
+    TOL='1%';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_250R 1%_1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='250R 1%';
+    TOL='1%';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_R0805_0R 1%_1%';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='r0805';
+    VALUE='0R 1%';
+    TOL='1%';
+  end_body;
+end_primitive;
+primitive 'T POINT R_M3_T POINT R';
+  pin
+    'TP':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='T POINT R';
+    JEDEC_TYPE='m3';
+    VALUE='T POINT R';
+  end_body;
+end_primitive;
+primitive 'AS1117_SOT223_AMS1117-5';
+  pin
+    'IN':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'ADJ/GND':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'OUT1':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'OUT2':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='AS1117';
+    JEDEC_TYPE='SOT223';
+    VALUE='AMS1117-5';
+  end_body;
+end_primitive;
+primitive 'AD8032ARZ_SOP8_244_0500_069_AD8';
+  pin
+    '+IN1':
+      PIN_NUMBER='(3,0)';
+      PINUSE='UNSPEC';
+    '-N1':
+      PIN_NUMBER='(2,0)';
+      PINUSE='UNSPEC';
+    'OUT1':
+      PIN_NUMBER='(1,0)';
+      PINUSE='UNSPEC';
+    '+VS':
+      PIN_NUMBER='(8,0)';
+      PINUSE='UNSPEC';
+    '-VS':
+      PIN_NUMBER='(4,0)';
+      PINUSE='UNSPEC';
+    '+IN2':
+      PIN_NUMBER='(0,5)';
+      INPUT_LOAD='(*)';
+    '-IN2':
+      PIN_NUMBER='(0,6)';
+      INPUT_LOAD='(*)';
+    'OUT2':
+      PIN_NUMBER='(0,7)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='AD8032ARZ';
+    JEDEC_TYPE='sop8_244_0500_069';
+    VALUE='AD8606AR';
+  end_body;
+end_primitive;
+primitive 'TL431_SOT-23_TL431ACDBZR';
+  pin
+    'REF':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'ANODE':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TL431';
+    JEDEC_TYPE='sot-23';
+    VALUE='TL431ACDBZR';
+  end_body;
+end_primitive;
+primitive 'MT7201C_SOT89-5_MT7201C';
+  pin
+    'LX':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'ADJ':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'ISENSE':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VIN':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='MT7201C';
+    JEDEC_TYPE='sot89-5';
+    VALUE='MT7201C';
+  end_body;
+end_primitive;
+END.

@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : laser.dra                                     )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Wed Jul 13 14:17:39 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/mywork/ImmunofluorescenceApparatus/laser/hardware/laser_driver/OrCAD/pcblib
+    Name      = laser.psm
+    User      = SUN
+    Machine   = SUN-PC
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

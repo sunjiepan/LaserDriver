@@ -1,0 +1,54 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : laser_driver.brd                              )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Mon Jul 11 01:25:19 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U2 / AD8032ARZ_SOP8_244_0500_069_AD8 / SOP8_244_0500_069 at (-18.3979 25.4591)
+         Placed symbol:  U4 / MT7201C_SOT23-5_MT7201C / SOT23-5 at (-13.5958 25.4032)
+         Placed symbol:  U1 / AS1117_SOT223_AMS1117-5 / SOT223 at (-7.2077 26.7890)
+         Placed symbol:  J1 / HEADER 4_WAFER1X4-2_54MM_HEADER / WAFER1X4-2_54MM at (-1.3893 25.1281)
+         Placed symbol:  U3 / TL431_SOT-23_TL431ACDBZR / SOT-23 at (10.2116 24.3542)
+         Placed symbol:  Q1 / NPN_0_SOT-23_MMBT3904 / SOT-23 at (13.3104 24.3542)
+         Placed symbol:  Q2 / TM3401_SOT-23_AO3401 / SOT-23 at (16.4092 24.3542)
+         Placed symbol:  J2 / HEADER 3_WAFER1X3-2_54MM_HEADER / WAFER1X3-2_54MM at (-19.8467 33.4847)
+         Placed symbol:  C8 / C_GENERIC_C0805_4.7UF / C0805 at (-10.7713 31.7202)
+         Placed symbol:  D1 / DIODE SCHOTTKY_SMA_SS14 / SMA at (-7.9265 32.7362)
+         Placed symbol:  C2 / C_GENERIC_C0805_10UF / C0805 at (-0.0944 31.7202)
+         Placed symbol:  L1 / L_2.2UH-1.48A_CMS_L1008_47UH / L1008 at (3.0552 32.0758)
+         Placed symbol:  C6 / C_GENERIC_C0805_10PF / C0805 at (6.2048 31.7202)
+         Placed symbol:  C4 / C_GENERIC_C0805_10UF / C0805 at (9.2528 31.7202)
+         Placed symbol:  R1 / R_GENERIC_R0805_10K 1%_1% / R0805 at (12.3008 31.7202)
+         Placed symbol:  R10 / R_GENERIC_R0805_10K 1%_1% / R0805 at (15.3488 31.7202)
+         Placed symbol:  R11 / R_GENERIC_R0805_10K 1%_1% / R0805 at (18.3968 31.7202)
+         Placed symbol:  C7 / C_GENERIC_C0805_0.1UF / C0805 at (-20.8744 37.7732)
+         Placed symbol:  R14 / R_GENERIC_R0805_10K 1%_1% / R0805 at (-17.8264 37.7732)
+         Placed symbol:  R2 / R_GENERIC_R0805_10K 1%_1% / R0805 at (-14.7784 37.7732)
+         Placed symbol:  R13 / R_GENERIC_R0805_NC_1% / R0805 at (-11.7304 37.7732)
+         Placed symbol:  R15 / R_GENERIC_R0805_1K 1%_1% / R0805 at (-8.6824 37.7732)
+         Placed symbol:  R16 / R_GENERIC_R0805_1M 1%_1% / R0805 at (-5.6344 37.7732)
+         Placed symbol:  R6 / R_GENERIC_R0805_1M 1%_1% / R0805 at (-2.5864 37.7732)
+         Placed symbol:  R17 / R_GENERIC_R0805_1R 0.1%_0.1% / R0805 at (0.4616 37.7732)
+         Placed symbol:  R3 / R_GENERIC_R0805_33K 1%_1% / R0805 at (3.5096 37.7732)
+         Placed symbol:  R4 / R_GENERIC_R0805_6K8 1%_1% / R0805 at (6.5576 37.7732)
+         Placed symbol:  R5 / R_GENERIC_R0805_100K 1%_1% / R0805 at (9.6056 37.7732)
+         Placed symbol:  R7 / R_GENERIC_R0805_0R_1% / R0805 at (12.6536 37.7732)
+         Placed symbol:  R8 / R_GENERIC_R0805_250R 1%_1% / R0805 at (15.7016 37.7732)
+         Placed symbol:  R9 / R_GENERIC_R0805_0R 1%_1% / R0805 at (18.7496 37.7732)
+         Placed symbol:  C5 / C_GENERIC_C0805_0.1UF / C0805 at (-20.8744 39.3353)
+         Placed symbol:  C3 / C_GENERIC_C0805_0.1UF / C0805 at (-17.8264 39.3353)
+         Placed symbol:  R12 / R_GENERIC_R0805_10K 1%_1% / R0805 at (-14.7784 39.3353)
+         Placed symbol:  C1 / C_GENERIC_C0805_0.1UF / C0805 at (-11.7304 39.3353)
+
+
+Placed 35 of 35 applicable (35 total) symbols.
+
+-----------------------------------------------------------------------
+

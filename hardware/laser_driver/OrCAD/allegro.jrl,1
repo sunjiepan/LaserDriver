@@ -1,0 +1,606 @@
+\t (00:01:17) allegro 16.6-2015 S058 (v16-6-112EP) Windows 32
+\t (00:01:17)     Journal start - Tue Jul 26 15:36:16 2016
+\t (00:01:17)         Host=SUN-PC User=SUN Pid=8092 CPUs=8
+\t (00:01:17) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe D:\mywork\ImmunofluorescenceApparatus\laser\hardware\laser_driver\OrCAD\laser_driver2.brd
+\t (00:01:17) 
+   (00:01:18) Loading axlcore.cxt 
+\t (00:01:19) Opening existing design...
+\d (00:01:20) Design opened: D:/mywork/ImmunofluorescenceApparatus/laser/hardware/laser_driver/OrCAD/laser_driver2.brd
+\i (00:01:20) trapsize 3709
+\i (00:01:20) trapsize 3614
+\i (00:01:20) trapsize 3725
+\i (00:01:20) trapsize 3771
+\i (00:01:20) trapsize 3163
+\i (00:01:20) trapsize 3327
+\i (00:01:21) etchedit 
+\i (00:01:22) trapsize 2428
+\i (00:01:24) zoom out 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom out -28.3184 5.8038
+\i (00:01:24) trapsize 4856
+\i (00:01:24) zoom out 1 
+\i (00:01:24) setwindow pcb
+\i (00:01:24) zoom out -28.3184 5.8039
+\i (00:01:24) trapsize 9712
+\i (00:01:25) zoom in 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom in -27.3472 5.4153
+\i (00:01:25) trapsize 4856
+\i (00:01:25) zoom in 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom in -27.3472 5.2211
+\i (00:01:25) trapsize 2428
+\i (00:01:26) zoom in 1 
+\i (00:01:26) setwindow pcb
+\i (00:01:26) zoom in -32.4945 -3.0827
+\i (00:01:26) trapsize 1214
+\i (00:01:26) zoom in 1 
+\i (00:01:26) setwindow pcb
+\i (00:01:26) zoom in -32.4945 -3.0827
+\i (00:01:26) trapsize 607
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in -32.6523 -4.2481
+\i (00:01:27) trapsize 304
+\i (00:01:27) zoom in 1 
+\i (00:01:27) setwindow pcb
+\i (00:01:27) zoom in -32.6522 -4.2481
+\i (00:01:27) trapsize 152
+\i (00:01:28) zoom out 1 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) zoom out -32.6523 -4.2481
+\i (00:01:28) trapsize 304
+\i (00:01:28) zoom out 1 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) zoom out -32.6523 -4.2481
+\i (00:01:28) trapsize 607
+\i (00:01:28) zoom out 1 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) zoom out -32.6523 -4.2480
+\i (00:01:28) trapsize 1214
+\i (00:01:29) zoom in 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom in -33.3078 3.6674
+\i (00:01:29) trapsize 607
+\i (00:01:30) zoom in 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom in -33.2956 3.7038
+\i (00:01:30) trapsize 304
+\i (00:01:30) zoom out 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom out -33.2956 3.7038
+\i (00:01:30) trapsize 607
+\i (00:01:30) zoom out 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom out -33.2956 3.7038
+\i (00:01:30) trapsize 1214
+\i (00:01:30) zoom out 1 
+\i (00:01:31) setwindow pcb
+\i (00:01:31) zoom out -33.2956 3.7038
+\i (00:01:31) trapsize 2428
+\i (00:01:31) zoom out 1 
+\i (00:01:31) setwindow pcb
+\i (00:01:31) zoom out -33.2956 3.7039
+\i (00:01:31) trapsize 4856
+\i (00:01:31) zoom in 1 
+\i (00:01:31) setwindow pcb
+\i (00:01:31) zoom in -34.7525 -13.6810
+\i (00:01:31) trapsize 2428
+\i (00:01:32) zoom in 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom in -33.2956 -3.2403
+\i (00:01:32) trapsize 1214
+\i (00:01:32) zoom in 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom in -33.2956 -3.2402
+\i (00:01:32) trapsize 607
+\i (00:01:32) zoom in 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom in -33.2956 -3.2402
+\i (00:01:32) trapsize 304
+\i (00:01:33) zoom out 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom out -33.3623 -3.7986
+\i (00:01:33) trapsize 607
+\i (00:01:33) zoom out 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom out -33.3745 -3.9686
+\i (00:01:33) trapsize 1214
+\i (00:01:33) zoom out 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom out -33.3745 -4.1143
+\i (00:01:33) trapsize 2428
+\i (00:01:34) zoom out 1 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom out 11.4961 -7.6107
+\i (00:01:34) trapsize 4856
+\i (00:01:35) zoom in 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom in 35.3882 2.6844
+\i (00:01:35) trapsize 2428
+\i (00:01:35) zoom in 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom in 35.3883 2.6844
+\i (00:01:35) trapsize 1214
+\i (00:01:35) zoom in 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom in 36.2624 1.5918
+\i (00:01:35) trapsize 607
+\i (00:01:36) zoom out 1 
+\i (00:01:36) setwindow pcb
+\i (00:01:36) zoom out 36.2624 1.5311
+\i (00:01:36) trapsize 1214
+\i (00:01:36) zoom out 1 
+\i (00:01:36) setwindow pcb
+\i (00:01:36) zoom out 36.1653 1.4097
+\i (00:01:36) trapsize 2428
+\i (00:01:37) zoom in 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom in 34.6114 1.0213
+\i (00:01:37) trapsize 1214
+\i (00:01:37) zoom in 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom in 34.6114 1.0213
+\i (00:01:37) trapsize 607
+\i (00:01:39) zoom out 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom out 34.6115 1.0213
+\i (00:01:39) trapsize 1214
+\i (00:01:40) zoom in 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom in 34.9028 -1.4068
+\i (00:01:40) trapsize 607
+\i (00:01:44) zoom out 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom out 34.9029 -1.4067
+\i (00:01:44) trapsize 1214
+\i (00:01:44) zoom out 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom out 34.9028 -1.4068
+\i (00:01:44) trapsize 2428
+\i (00:01:45) zoom in 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom in 34.3686 -1.9409
+\i (00:01:45) trapsize 1214
+\i (00:01:51) zoom in 1 
+\i (00:01:51) setwindow pcb
+\i (00:01:51) zoom in 33.8830 -2.1837
+\i (00:01:51) trapsize 607
+\i (00:01:52) zoom out 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom out 33.8830 -2.1837
+\i (00:01:52) trapsize 1214
+\i (00:02:01) zoom in 1 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom in 34.2229 -1.0668
+\i (00:02:01) trapsize 607
+\i (00:02:03) zoom in 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom in 34.2230 -1.0667
+\i (00:02:03) trapsize 304
+\i (00:02:03) zoom in 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom in 34.2230 -1.0667
+\i (00:02:03) trapsize 152
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 34.2231 -1.0667
+\i (00:02:04) trapsize 304
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 34.2230 -1.0666
+\i (00:02:04) trapsize 607
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 34.2231 -1.0666
+\i (00:02:04) trapsize 1214
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 34.2230 -1.0667
+\i (00:02:04) trapsize 2428
+\i (00:02:05) zoom in 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom in 33.0576 0.5845
+\i (00:02:05) trapsize 1214
+\i (00:02:05) zoom in 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom in 33.1304 0.5116
+\i (00:02:05) trapsize 607
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 33.5311 0.0017
+\i (00:02:06) trapsize 1214
+\i (00:02:09) zoom out 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom out 33.9438 -0.6295
+\i (00:02:09) trapsize 2428
+\i (00:02:11) zoom in 1 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom in 10.9257 -7.8166
+\i (00:02:11) trapsize 1214
+\i (00:02:13) zoom out 1 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom out 10.9258 -7.8166
+\i (00:02:13) trapsize 2428
+\i (00:02:14) zoom in 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom in 29.2819 -0.5324
+\i (00:02:14) trapsize 1214
+\i (00:02:14) zoom in 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom in 29.9861 -0.7752
+\i (00:02:14) trapsize 607
+\i (00:02:15) zoom in 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom in 29.9861 -0.7751
+\i (00:02:15) trapsize 304
+\i (00:02:15) zoom in 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom in 29.9862 -0.7751
+\i (00:02:15) trapsize 152
+\i (00:02:15) zoom out 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom out 29.6584 -0.8297
+\i (00:02:15) trapsize 304
+\i (00:02:15) zoom out 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom out 29.1547 -0.9389
+\i (00:02:15) trapsize 607
+\i (00:02:16) zoom out 1 
+\i (00:02:16) setwindow pcb
+\i (00:02:16) zoom out 29.0818 -0.9875
+\i (00:02:16) trapsize 1214
+\i (00:02:16) zoom in 1 
+\i (00:02:16) setwindow pcb
+\i (00:02:16) zoom in 35.3705 0.9550
+\i (00:02:16) trapsize 607
+\i (00:02:17) zoom in 1 
+\i (00:02:17) setwindow pcb
+\i (00:02:17) zoom in 35.3705 0.9551
+\i (00:02:17) trapsize 304
+\i (00:02:18) zoom out 1 
+\i (00:02:18) setwindow pcb
+\i (00:02:18) zoom out 35.3705 0.9551
+\i (00:02:18) trapsize 607
+\i (00:02:19) zoom out 1 
+\i (00:02:19) setwindow pcb
+\i (00:02:19) zoom out 35.3705 0.9552
+\i (00:02:19) trapsize 1214
+\i (00:02:19) zoom in 1 
+\i (00:02:19) setwindow pcb
+\i (00:02:19) zoom in 35.3706 0.9551
+\i (00:02:19) trapsize 607
+\i (00:28:54) xhilite 
+\i (00:28:54) xrefdes R16 
+\i (00:28:54) xname_flush 
+\i (00:28:54) trapsize 337
+\t (00:28:54) Symbol "R16" highlighted.
+\i (00:28:54) done 
+\i (00:28:54) etchedit 
+\i (00:28:54) xdehilite 
+\i (00:28:54) xrefdes R16 
+\i (00:28:54) xname_flush 
+\t (00:28:54) Symbol "R16" dehighlighted.
+\i (00:28:54) done 
+\i (00:28:55) etchedit 
+\i (00:28:56) xhilite 
+\i (00:28:56) xrefdes U4 
+\i (00:28:56) xname_flush 
+\i (00:28:56) trapsize 991
+\t (00:28:56) Symbol "U4" highlighted.
+\i (00:28:56) done 
+\i (00:28:56) etchedit 
+\i (00:28:57) xdehilite 
+\i (00:28:57) xrefdes U4 
+\i (00:28:57) xname_flush 
+\t (00:28:57) Symbol "U4" dehighlighted.
+\i (00:28:57) done 
+\i (00:28:57) etchedit 
+\i (00:29:02) xhilite 
+\i (00:29:02) xrefdes R15 
+\i (00:29:02) xname_flush 
+\i (00:29:02) trapsize 310
+\t (00:29:02) Symbol "R15" highlighted.
+\i (00:29:02) done 
+\i (00:29:02) etchedit 
+\i (00:29:03) xdehilite 
+\i (00:29:03) xrefdes R15 
+\i (00:29:03) xname_flush 
+\t (00:29:03) Symbol "R15" dehighlighted.
+\i (00:29:03) done 
+\i (00:29:03) etchedit 
+\i (00:29:05) xhilite 
+\i (00:29:05) xrefdes R16 
+\i (00:29:05) xname_flush 
+\i (00:29:05) trapsize 337
+\t (00:29:05) Symbol "R16" highlighted.
+\i (00:29:05) done 
+\i (00:29:05) etchedit 
+\i (00:29:05) xdehilite 
+\i (00:29:05) xrefdes R16 
+\i (00:29:05) xname_flush 
+\t (00:29:05) Symbol "R16" dehighlighted.
+\i (00:29:05) done 
+\i (00:29:05) etchedit 
+\i (00:35:35) xhilite 
+\i (00:35:35) xrefdes R16 
+\i (00:35:35) xname_flush 
+\i (00:35:35) trapsize 337
+\t (00:35:35) Symbol "R16" highlighted.
+\i (00:35:35) done 
+\i (00:35:35) etchedit 
+\i (00:35:36) xdehilite 
+\i (00:35:36) xrefdes R16 
+\i (00:35:36) xname_flush 
+\t (00:35:36) Symbol "R16" dehighlighted.
+\i (00:35:36) done 
+\i (00:35:36) etchedit 
+\i (00:35:39) xhilite 
+\i (00:35:40) xrefdes R16 
+\i (00:35:40) xname_flush 
+\i (00:35:40) trapsize 337
+\t (00:35:40) Symbol "R16" highlighted.
+\i (00:35:40) done 
+\i (00:35:40) etchedit 
+\i (00:35:40) xdehilite 
+\i (00:35:40) xrefdes R16 
+\i (00:35:40) xname_flush 
+\t (00:35:40) Symbol "R16" dehighlighted.
+\i (00:35:40) done 
+\i (00:35:40) etchedit 
+\i (00:35:41) xhilite 
+\i (00:35:41) xrefdes U4 
+\i (00:35:41) xname_flush 
+\i (00:35:41) trapsize 991
+\t (00:35:41) Symbol "U4" highlighted.
+\i (00:35:41) done 
+\i (00:35:41) etchedit 
+\i (00:35:42) xdehilite 
+\i (00:35:42) xrefdes U4 
+\i (00:35:42) xname_flush 
+\t (00:35:42) Symbol "U4" dehighlighted.
+\i (00:35:42) done 
+\i (00:35:42) etchedit 
+\i (00:35:45) xhilite 
+\i (00:35:45) xrefdes D1 
+\i (00:35:45) xname_flush 
+\i (00:35:45) trapsize 688
+\t (00:35:45) Symbol "D1" highlighted.
+\i (00:35:45) done 
+\i (00:35:45) etchedit 
+\i (00:35:45) xdehilite 
+\i (00:35:45) xrefdes D1 
+\i (00:35:45) xname_flush 
+\t (00:35:45) Symbol "D1" dehighlighted.
+\i (00:35:45) done 
+\i (00:35:45) etchedit 
+\i (00:35:51) xhilite 
+\i (00:35:51) xNet Com 
+\i (00:35:51) xname_flush 
+\i (00:35:51) trapsize 766
+\t (00:35:51) Net "Com" highlighted.
+\i (00:35:51) done 
+\i (00:35:51) etchedit 
+\i (00:35:52) xdehilite 
+\i (00:35:52) xNet Com 
+\i (00:35:52) xname_flush 
+\t (00:35:52) Net "Com" dehighlighted.
+\i (00:35:52) done 
+\i (00:35:52) etchedit 
+\i (01:27:57) zoom out 1 
+\i (01:27:57) setwindow pcb
+\i (01:27:57) zoom out 35.2936 2.6333
+\i (01:27:57) trapsize 1532
+\i (01:27:57) zoom out 1 
+\i (01:27:57) setwindow pcb
+\i (01:27:57) zoom out 35.2936 2.6334
+\i (01:27:57) trapsize 3063
+\i (01:27:58) zoom in 1 
+\i (01:27:58) setwindow pcb
+\i (01:27:58) zoom in 33.4557 -2.5742
+\i (01:27:58) trapsize 1532
+\i (01:27:58) zoom in 1 
+\i (01:27:58) setwindow pcb
+\i (01:27:58) zoom in 33.4557 -2.5742
+\i (01:27:58) trapsize 766
+\i (01:27:58) zoom in 1 
+\i (01:27:58) setwindow pcb
+\i (01:27:58) zoom in 33.4557 -2.5741
+\i (01:27:58) trapsize 383
+\i (01:27:59) zoom in 1 
+\i (01:27:59) setwindow pcb
+\i (01:27:59) zoom in 35.2936 1.0252
+\i (01:27:59) trapsize 191
+\i (01:28:00) zoom in 1 
+\i (01:28:00) setwindow pcb
+\i (01:28:00) zoom in 35.2515 0.8300
+\i (01:28:00) trapsize 96
+\i (01:28:00) zoom in 1 
+\i (01:28:00) setwindow pcb
+\i (01:28:00) zoom in 35.1730 0.6079
+\i (01:28:00) trapsize 48
+\i (01:28:00) zoom out 1 
+\i (01:28:00) setwindow pcb
+\i (01:28:00) zoom out 35.0094 0.4060
+\i (01:28:00) trapsize 96
+\i (01:28:00) zoom out 1 
+\i (01:28:00) setwindow pcb
+\i (01:28:00) zoom out 34.9251 0.3466
+\i (01:28:00) trapsize 191
+\i (01:28:00) zoom out 1 
+\i (01:28:00) setwindow pcb
+\i (01:28:00) zoom out 34.8293 0.2929
+\i (01:28:00) trapsize 383
+\i (01:28:01) zoom in 1 
+\i (01:28:01) setwindow pcb
+\i (01:28:01) zoom in 34.9289 0.3849
+\i (01:28:01) trapsize 191
+\i (01:47:42) xhilite 
+\i (01:47:42) xNet Vcc 
+\i (01:47:42) xname_flush 
+\i (01:47:42) trapsize 1319
+\t (01:47:42) Net "Vcc" highlighted.
+\i (01:47:42) done 
+\i (01:47:42) etchedit 
+\i (01:47:43) xdehilite 
+\i (01:47:43) xNet Vcc 
+\i (01:47:43) xname_flush 
+\t (01:47:43) Net "Vcc" dehighlighted.
+\i (01:47:43) done 
+\i (01:47:43) xhilite 
+\i (01:47:43) xrefdes R17 
+\i (01:47:43) xname_flush 
+\i (01:47:43) trapsize 337
+\t (01:47:43) Symbol "R17" highlighted.
+\i (01:47:43) done 
+\i (01:47:43) etchedit 
+\i (01:47:44) xdehilite 
+\i (01:47:44) xrefdes R17 
+\i (01:47:44) xname_flush 
+\t (01:47:44) Symbol "R17" dehighlighted.
+\i (01:47:44) done 
+\i (01:47:44) etchedit 
+\i (01:47:44) xhilite 
+\i (01:47:45) xNet Com 
+\i (01:47:45) xname_flush 
+\i (01:47:45) trapsize 766
+\t (01:47:45) Net "Com" highlighted.
+\i (01:47:45) done 
+\i (01:47:45) etchedit 
+\i (01:47:45) xdehilite 
+\i (01:47:45) xNet Com 
+\i (01:47:45) xname_flush 
+\t (01:47:45) Net "Com" dehighlighted.
+\i (01:47:45) done 
+\i (01:47:45) etchedit 
+\i (01:47:51) xhilite 
+\i (01:47:51) xNet Com 
+\i (01:47:51) xname_flush 
+\i (01:47:51) trapsize 766
+\t (01:47:51) Net "Com" highlighted.
+\i (01:47:51) done 
+\i (01:47:51) etchedit 
+\i (01:47:51) xdehilite 
+\i (01:47:51) xNet Com 
+\i (01:47:51) xname_flush 
+\t (01:47:51) Net "Com" dehighlighted.
+\i (01:47:51) done 
+\i (01:47:51) etchedit 
+\i (01:47:54) xhilite 
+\i (01:47:54) xNet Com 
+\i (01:47:54) xname_flush 
+\i (01:47:54) trapsize 766
+\t (01:47:54) Net "Com" highlighted.
+\i (01:47:54) done 
+\i (01:47:54) etchedit 
+\i (01:47:54) xdehilite 
+\i (01:47:54) xNet Com 
+\i (01:47:54) xname_flush 
+\t (01:47:54) Net "Com" dehighlighted.
+\i (01:47:54) done 
+\i (01:47:54) xhilite 
+\i (01:47:54) xNet Com 
+\i (01:47:54) xname_flush 
+\i (01:47:54) trapsize 766
+\t (01:47:54) Net "Com" highlighted.
+\i (01:47:54) done 
+\i (01:47:54) etchedit 
+\i (01:47:55) xdehilite 
+\i (01:47:55) xNet Com 
+\i (01:47:55) xname_flush 
+\t (01:47:55) Net "Com" dehighlighted.
+\i (01:47:55) done 
+\i (01:47:55) xhilite 
+\i (01:47:55) xNet Com 
+\i (01:47:55) xname_flush 
+\i (01:47:55) trapsize 766
+\t (01:47:55) Net "Com" highlighted.
+\i (01:47:55) done 
+\i (01:47:55) etchedit 
+\i (01:47:56) xdehilite 
+\i (01:47:56) xNet Com 
+\i (01:47:56) xname_flush 
+\t (01:47:56) Net "Com" dehighlighted.
+\i (01:47:56) done 
+\i (01:47:56) xhilite 
+\i (01:47:56) xNet Com 
+\i (01:47:56) xname_flush 
+\i (01:47:56) trapsize 766
+\t (01:47:56) Net "Com" highlighted.
+\i (01:47:56) done 
+\i (01:47:56) etchedit 
+\i (01:47:56) xdehilite 
+\i (01:47:56) xNet Com 
+\i (01:47:56) xname_flush 
+\t (01:47:56) Net "Com" dehighlighted.
+\i (01:47:56) done 
+\i (01:47:56) etchedit 
+\i (01:48:43) xhilite 
+\i (01:48:43) xrefdes R17 
+\i (01:48:43) xname_flush 
+\i (01:48:43) trapsize 337
+\t (01:48:43) Symbol "R17" highlighted.
+\i (01:48:43) done 
+\i (01:48:43) etchedit 
+\i (01:48:43) xdehilite 
+\i (01:48:43) xrefdes R17 
+\i (01:48:43) xname_flush 
+\t (01:48:43) Symbol "R17" dehighlighted.
+\i (01:48:43) done 
+\i (01:48:43) etchedit 
+\i (01:48:55) xhilite 
+\i (01:48:55) xrefdes D1 
+\i (01:48:55) xname_flush 
+\i (01:48:55) trapsize 688
+\t (01:48:55) Symbol "D1" highlighted.
+\i (01:48:55) done 
+\i (01:48:55) etchedit 
+\i (01:48:56) xdehilite 
+\i (01:48:56) xrefdes D1 
+\i (01:48:56) xname_flush 
+\t (01:48:56) Symbol "D1" dehighlighted.
+\i (01:48:56) done 
+\i (01:48:56) etchedit 
+\i (01:49:58) xhilite 
+\i (01:49:58) xNet N00162 
+\i (01:49:58) xname_flush 
+\i (01:49:58) trapsize 294
+\t (01:49:58) Net "N00162" highlighted.
+\i (01:49:58) done 
+\i (01:49:58) etchedit 
+\i (01:49:59) xdehilite 
+\i (01:49:59) xNet N00162 
+\i (01:49:59) xname_flush 
+\t (01:49:59) Net "N00162" dehighlighted.
+\i (01:49:59) done 
+\i (01:49:59) etchedit 
+\i (01:50:01) xhilite 
+\i (01:50:01) xNet Com 
+\i (01:50:01) xname_flush 
+\i (01:50:01) trapsize 766
+\t (01:50:01) Net "Com" highlighted.
+\i (01:50:01) done 
+\i (01:50:01) etchedit 
+\i (01:50:02) xdehilite 
+\i (01:50:02) xNet Com 
+\i (01:50:02) xname_flush 
+\t (01:50:02) Net "Com" dehighlighted.
+\i (01:50:02) done 
+\i (01:50:02) etchedit 
+\i (01:50:03) xhilite 
+\i (01:50:03) xrefdes R17 
+\i (01:50:03) xname_flush 
+\i (01:50:03) trapsize 337
+\t (01:50:03) Symbol "R17" highlighted.
+\i (01:50:03) done 
+\i (01:50:03) etchedit 
+\i (01:50:03) xdehilite 
+\i (01:50:03) xrefdes R17 
+\i (01:50:03) xname_flush 
+\t (01:50:03) Symbol "R17" dehighlighted.
+\i (01:50:03) done 
+\i (01:50:03) etchedit 
+\i (03:03:25) exit 
+\e (03:03:25) Do you want to save the changes you made to laser_driver2.brd?
+\i (03:03:27) fillin no 
+\t (03:03:27)     Journal end - Tue Jul 26 18:38:26 2016

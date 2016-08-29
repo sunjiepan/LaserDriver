@@ -1,0 +1,20 @@
+\t (00:00:00) pad_designer 16.6-2015 S051 (v16-6-112DY) Windows 32
+\t (00:00:00)     Journal start - Wed Jul 13 14:11:32 2016
+\t (00:00:00)         Host=SUN-PC User=SUN Pid=10028 CPUs=8
+\t (00:00:00) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:03) setwindow form.padedit
+\i (00:00:03) pse_open 
+\i (00:00:16) fillin "r24x80.pad"
+\i (00:00:23) FORM padedit layers  
+\i (00:00:24) FORM padedit parameters  
+\i (00:00:31) FORM padedit layers  
+\i (00:00:49) FORM padedit parameters  
+\i (00:00:52) FORM padedit layers  
+\i (00:00:52) FORM padedit parameters  
+\i (00:01:00) FORM padedit layers  
+\i (00:01:01) FORM padedit parameters  
+\i (00:01:03) FORM padedit layers  
+\i (00:01:03) FORM padedit parameters  
+\i (00:01:05) pse_exit
+\t (00:01:05)     Journal end - Wed Jul 13 14:12:37 2016

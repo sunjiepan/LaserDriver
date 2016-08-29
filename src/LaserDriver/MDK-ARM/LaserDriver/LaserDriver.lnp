@@ -1,0 +1,33 @@
+--cpu Cortex-M0
+"laserdriver\system_stm32f0xx.o"
+"laserdriver\startup_stm32f030x6.o"
+"laserdriver\stm32f0xx_hal_msp.o"
+"laserdriver\stm32f0xx_it.o"
+"laserdriver\main.o"
+"laserdriver\eeprom.o"
+"laserdriver\laser_ctl.o"
+"laserdriver\queue.o"
+"laserdriver\stm32f0xx_hal_tim_ex.o"
+"laserdriver\stm32f0xx_hal_i2c_ex.o"
+"laserdriver\stm32f0xx_hal_adc_ex.o"
+"laserdriver\stm32f0xx_hal_cortex.o"
+"laserdriver\stm32f0xx_hal_dma.o"
+"laserdriver\stm32f0xx_hal_pwr.o"
+"laserdriver\stm32f0xx_hal_tim.o"
+"laserdriver\stm32f0xx_hal_uart.o"
+"laserdriver\stm32f0xx_hal_rcc_ex.o"
+"laserdriver\stm32f0xx_hal_i2c.o"
+"laserdriver\stm32f0xx_hal_pwr_ex.o"
+"laserdriver\stm32f0xx_hal_flash.o"
+"laserdriver\stm32f0xx_hal_rcc.o"
+"laserdriver\stm32f0xx_hal_uart_ex.o"
+"laserdriver\stm32f0xx_hal_adc.o"
+"laserdriver\stm32f0xx_hal_flash_ex.o"
+"laserdriver\stm32f0xx_hal.o"
+"laserdriver\stm32f0xx_hal_gpio.o"
+"laserdriver\stm32f0xx_hal_iwdg.o"
+--library_type=microlib --strict --scatter "LaserDriver\LaserDriver.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LaserDriver.map" -o LaserDriver\LaserDriver.axf

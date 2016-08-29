@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : sot89-5.dra                                   )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Mon Jul 11 02:01:44 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/mywork/ImmunofluorescenceApparatus/laser/hardware/laser_driver/OrCAD/pcblib
+    Name      = sot89-5.psm
+    User      = SUN
+    Machine   = SUN-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,28 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [laser_driver2.PrjPcb]
+   Generated File[laser_driver2.GTL]
+   Generated File[laser_driver2.GBL]
+   Generated File[laser_driver2.GPB]
+   Generated File[laser_driver2.GPT]
+   Generated File[laser_driver2.GTP]
+   Generated File[laser_driver2.GTS]
+   Generated File[laser_driver2.GBS]
+   Generated File[laser_driver2.GBP]
+   Generated File[laser_driver2.GKO]
+   Generated File[laser_driver2.GM1]
+   Generated File[laser_driver2.GM4]
+   Generated File[laser_driver2.GM5]
+   Generated File[laser_driver2.GM6]
+   Generated File[laser_driver2.GM7]
+   Generated File[laser_driver2.GM9]
+   Generated File[laser_driver2.GD1]
+   Generated File[laser_driver2.RUL]
+   Generated File[laser_driver2.EXTREP]
+   Generated File[laser_driver2.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 12:42:54 On 2016/7/17

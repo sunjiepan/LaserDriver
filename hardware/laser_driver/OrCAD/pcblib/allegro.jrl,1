@@ -1,0 +1,24 @@
+\t (00:00:03) allegro 16.6-2015 S058 (v16-6-112EP) Windows 32
+\t (00:00:03)     Journal start - Wed Jul 13 13:46:20 2016
+\t (00:00:03)         Host=SUN-PC User=SUN Pid=9968 CPUs=8
+\t (00:00:03) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: D:/mywork/ImmunofluorescenceApparatus/laser/hardware/laser_driver/OrCAD/pcblib/laser.dra
+\i (00:00:06) trapsize 335
+\i (00:00:06) trapsize 329
+\i (00:00:06) trapsize 336
+\i (00:00:06) trapsize 297
+\i (00:00:06) trapsize 297
+\i (00:00:06) etchedit 
+\i (00:00:09) open 
+\i (00:00:16) fillin "D:\mywork\ImmunofluorescenceApparatus\laser\hardware\laser_driver\OrCAD\laser_driver2.brd"
+\i (00:00:16) cd "D:\mywork\ImmunofluorescenceApparatus\laser\hardware\laser_driver\OrCAD"
+\t (00:00:16) Opening existing design...
+\i (00:00:16) trapsize 9165
+\i (00:00:16) trapsize 8995
+\i (00:00:16) trapsize 9165
+\i (00:00:16) trapsize 9235
+\i (00:00:16) trapsize 9235
+\t (00:00:17)     Journal end - Wed Jul 13 13:46:34 2016

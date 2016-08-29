@@ -1,0 +1,39 @@
+Importer Log Report
+Project : LASERDRIVER.PrjPcb
+
+Section : Import Document - D:\mywork\ImmunofluorescenceApparatus\laser\hardware\laser_driver\OrCAD\LASERDRIVER.DSN
+
+    Section : Importing Sheet - PAGE1.SchDoc
+        Warning : Junction at (304.8mm,170.18mm) has been added.
+        Warning : Junction at (213.36mm,137.16mm) has been added.
+        Warning : Junction at (109.22mm,162.56mm) has been added.
+        Warning : Junction at (82.8mm,177.8mm) has been added.
+        Warning : Junction at (358.14mm,172.72mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (375.92mm,172.72mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (314.96mm,190.5mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (358.14mm,190.5mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (304.8mm,180.34mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (292.1mm,177.8mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (309.88mm,177.8mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (304.8mm,203.2mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (180.34mm,182.88mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (162.56mm,177.8mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (213.36mm,147.32mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (264.16mm,134.62mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (210.82mm,180.34mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (90.42mm,177.8mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (90.42mm,162.56mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (128.52mm,177.8mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (128.52mm,162.56mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (34.54mm,137.16mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (58.42mm,177.8mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (44.7mm,177.8mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (44.7mm,160.02mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (44.7mm,121.92mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (34.54mm,121.92mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (398.78mm,154.94mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (398.78mm,152.4mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (58.42mm,160.02mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (368.3mm,198.12mm) has been removed. It will be automatically calculated.
+    EndSection
+EndSection

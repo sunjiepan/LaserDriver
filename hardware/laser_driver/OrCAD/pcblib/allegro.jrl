@@ -1,0 +1,350 @@
+\t (00:14:37) allegro 16.6-2015 S058 (v16-6-112EP) Windows 32
+\t (00:14:37)     Journal start - Wed Jul 13 14:05:19 2016
+\t (00:14:37)         Host=SUN-PC User=SUN Pid=6264 CPUs=8
+\t (00:14:37) CmdLine= D:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe
+\t (00:14:37) 
+\d (00:14:37) Design opened: D:/mywork/ImmunofluorescenceApparatus/laser/hardware/laser_driver/OrCAD/pcblib/laser.dra
+\i (00:14:37) etchedit 
+\i (00:14:38) zoom in 1 
+\i (00:14:38) setwindow pcb
+\i (00:14:38) zoom in 0.2370 -0.0988
+\i (00:14:38) trapsize 148
+\i (00:14:38) zoom in 1 
+\i (00:14:38) setwindow pcb
+\i (00:14:38) zoom in -0.2346 0.2868
+\i (00:14:38) trapsize 74
+\i (00:14:38) zoom out 1 
+\i (00:14:38) setwindow pcb
+\i (00:14:38) zoom out -0.4466 0.4574
+\i (00:14:38) trapsize 148
+\i (00:14:38) zoom out 1 
+\i (00:14:38) setwindow pcb
+\i (00:14:38) zoom out -0.5090 0.4782
+\i (00:14:38) trapsize 297
+\i (00:14:40) pick grid -0.0284 0.0511
+\t (00:14:40) last pick:  0.0000 0.0000
+\i (00:14:44) setwindow form.vf_vis
+\i (00:14:44) FORM vf_vis 1 all_colorvisible NO 
+\i (00:14:45) FORM vf_vis 2 all_colorvisible NO 
+\i (00:14:46) FORM vf_vis 1 all_colorvisible YES 
+\i (00:14:47) FORM vf_vis 2 all_colorvisible YES 
+\i (00:14:49) setwindow pcb
+\i (00:14:49) delete 
+\i (00:14:49) etchedit 
+\i (00:14:50) pick grid 0.9149 0.1461
+\t (00:14:50) last pick:  0.6350 0.0000
+\i (00:14:50) pick grid dbl 0.9149 0.1461
+\t (00:14:50) last pick:  0.6350 0.0000
+\i (00:14:51) pick grid 2.0717 0.0452
+\t (00:14:51) last pick:  1.9050 0.0000
+\i (00:14:52) pick grid 3.4837 -0.4650
+\t (00:14:52) last pick:  3.1750 -0.6350
+\i (00:14:53) delete 
+\i (00:14:53) pick grid 0.8437 0.6385
+\t (00:14:53) last pick:  0.6350 0.6350
+\t (00:14:53) Pin "R24x80_Bottom, 2"
+\i (00:14:54) pick grid -0.3191 0.0274
+\t (00:14:54) last pick:  -0.6350 0.0000
+\i (00:14:55) delete 
+\i (00:14:55) pick grid 2.0539 0.3003
+\t (00:14:55) last pick:  1.9050 0.0000
+\t (00:14:55) Pin "R24x80_Bottom, 3"
+\i (00:14:56) pick grid 1.1641 0.5376
+\t (00:14:56) last pick:  1.2700 0.6350
+\i (00:14:56) prepopup -0.8174 1.2258
+\i (00:14:57) done 
+\i (00:14:57) etchedit 
+\i (00:14:57) pick grid -0.8174 1.2258
+\t (00:14:57) last pick:  -0.6350 1.2700
+\i (00:14:57) pick grid dbl -0.8174 1.2258
+\t (00:14:57) last pick:  -0.6350 1.2700
+\i (00:15:00) add pin 
+\t (00:15:00) Using 'R24X80_BOTTOM.pad'.
+\i (00:15:04) setwindow form.mini
+\i (00:15:04) FORM mini pad_browse  
+\i (00:15:10) fillin "r24.pad"
+\e (00:15:10) ERROR(SPMHAP-7): Illegal pad name.
+\i (00:15:14) FORM mini pad_browse  
+\t (00:15:16) No valid name selected.
+\i (00:15:19) fillin "R24x80_Bottom"
+\t (00:15:19) Using 'R24X80_BOTTOM.pad'.
+\i (00:15:20) setwindow pcb
+\i (00:15:20) pick grid 0.3098 -0.1209
+\t (00:15:20) last pick:  0.0000 0.0000
+\t (00:15:20) Using 'R24X80_BOTTOM.pad'.
+\i (00:15:21) pick grid 1.0217 -0.2040
+\t (00:15:21) last pick:  1.2700 0.0000
+\t (00:15:21) Using 'R24X80_BOTTOM.pad'.
+\i (00:15:22) pick grid 2.2260 -0.0319
+\t (00:15:22) last pick:  2.5400 0.0000
+\t (00:15:22) Using 'R24X80_BOTTOM.pad'.
+\i (00:15:22) prepopup 2.4277 -0.0023
+\i (00:15:22) pick grid 3.9049 0.4961
+\t (00:15:22) last pick:  3.8100 0.6350
+\t (00:15:22) Using 'R24X80_BOTTOM.pad'.
+\i (00:15:23) prepopup 3.2049 1.2317
+\i (00:15:24) done 
+\t (00:15:24) Exiting from Add Pin.
+\i (00:15:24) etchedit 
+\i (00:15:27) setwindow form.vf_vis
+\i (00:15:27) FORM vf_vis 1 all_colorvisible NO 
+\i (00:15:27) FORM vf_vis 2 all_colorvisible NO 
+\i (00:15:29) FORM vf_vis 1 all_colorvisible YES 
+\i (00:15:31) FORM vf_vis 2 all_colorvisible YES 
+\i (00:15:33) FORM vf_vis 3 all_colorvisible NO 
+\i (00:15:33) FORM vf_vis 2 all_colorvisible NO 
+\i (00:15:34) FORM vf_vis 1 all_colorvisible NO 
+\i (00:15:36) setwindow pcb
+\i (00:15:36) delete 
+\i (00:15:37) pick grid -0.0996 0.0808
+\t (00:15:37) last pick:  0.0000 0.0000
+\t (00:15:37) Pin "R24x80_Bottom, 5"
+\i (00:15:37) pick grid dbl -0.0996 0.0808
+\t (00:15:37) last pick:  0.0000 0.0000
+\t (00:15:37) Pin "R24x80_Bottom, 4"
+\i (00:15:38) pick grid 0.9979 0.0333
+\t (00:15:38) last pick:  1.2700 0.0000
+\t (00:15:38) Pin "R24x80_Bottom, 6"
+\i (00:15:38) pick grid 2.6947 0.0511
+\t (00:15:38) last pick:  2.5400 0.0000
+\t (00:15:38) Text "J*"
+\i (00:15:38) pick grid dbl 2.6947 0.0511
+\t (00:15:38) last pick:  2.5400 0.0000
+\i (00:15:39) pick grid 3.8752 0.2588
+\t (00:15:39) last pick:  3.8100 0.0000
+\t (00:15:39) Pin "R24x80_Bottom, 7"
+\i (00:15:39) pick grid dbl 3.8752 0.2588
+\t (00:15:39) last pick:  3.8100 0.0000
+\i (00:15:39) prepopup 1.3895 0.5554
+\i (00:15:40) done 
+\i (00:15:40) etchedit 
+\i (00:15:40) pick grid 1.3895 0.5554
+\t (00:15:40) last pick:  1.2700 0.6350
+\i (00:15:40) pick grid -0.0403 0.8461
+\t (00:15:40) last pick:  0.0000 0.6350
+\i (00:15:41) pick grid -1.3692 1.2970
+\t (00:15:41) last pick:  -1.2700 1.2700
+\i (00:15:41) prepopup -1.3692 1.2970
+\i (00:15:42) pick grid -1.5175 1.4394
+\t (00:15:42) last pick:  -1.2700 1.2700
+\i (00:15:42) pick grid dbl -1.5175 1.4394
+\t (00:15:42) last pick:  -1.2700 1.2700
+\i (00:15:43) pick grid 1.3717 -1.7286
+\t (00:15:43) last pick:  1.2700 -1.9050
+\i (00:15:45) pick grid 0.7606 -0.2514
+\t (00:15:45) last pick:  0.6350 0.0000
+\i (00:15:48) save 
+\i (00:15:50) fillin yes 
+\e (00:15:50) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:15:51) etchedit 
+\i (00:15:53) setwindow text
+\i (00:15:53) close 
+\i (00:15:53) setwindow pcb
+\i (00:15:53) pick grid 2.1667 1.1843
+\t (00:15:53) last pick:  1.9050 1.2700
+\i (00:16:31) pick grid 3.7329 0.5376
+\t (00:16:31) last pick:  3.8100 0.6350
+\i (00:16:33) pick grid 0.2504 -0.4887
+\t (00:16:33) last pick:  0.0000 -0.6350
+\i (00:16:34) pick grid 0.3869 -1.3964
+\t (00:16:34) last pick:  0.6350 -1.2700
+\i (00:16:38) open 
+\e (00:16:38) Do you want to save the changes you made to D:/mywork/ImmunofluorescenceApparatus/laser/hardware/laser_driver/OrCAD/pcblib/laser.dra?
+\i (00:16:39) fillin no 
+\i (00:16:45) fillin "wafer1x3-2_54mm.dra"
+\t (00:16:45) Opening existing design...
+\i (00:16:46) trapsize 2374
+\d (00:16:46) Design opened: D:/mywork/ImmunofluorescenceApparatus/laser/hardware/laser_driver/OrCAD/pcblib/wafer1x3-2_54mm.dra
+\i (00:16:46) etchedit 
+\i (00:16:47) zoom in 1 
+\i (00:16:47) setwindow pcb
+\i (00:16:47) zoom in 8.620 12.061
+\i (00:16:47) trapsize 1187
+\i (00:16:47) zoom in 1 
+\i (00:16:47) setwindow pcb
+\i (00:16:47) zoom in 8.620 12.299
+\i (00:16:47) trapsize 593
+\i (00:16:47) zoom out 1 
+\i (00:16:47) setwindow pcb
+\i (00:16:47) zoom out -18.560 -2.180
+\i (00:16:47) trapsize 1187
+\i (00:16:47) zoom out 1 
+\i (00:16:47) setwindow pcb
+\i (00:16:47) zoom out -18.559 -2.181
+\i (00:16:47) trapsize 2374
+\i (00:16:52) zoom in 1 
+\i (00:16:52) setwindow pcb
+\i (00:16:52) zoom in -15.236 -19.272
+\i (00:16:52) trapsize 1187
+\i (00:16:58) zoom out 1 
+\i (00:16:58) setwindow pcb
+\i (00:16:58) zoom out 8.977 -26.393
+\i (00:16:58) trapsize 2374
+\i (00:20:29) pick grid 118.645 88.498
+\t (00:20:29) last pick:  125.000 100.000
+\i (00:20:30) zoom in 1 
+\i (00:20:30) setwindow pcb
+\i (00:20:30) zoom in -15.236 -31.140
+\i (00:20:30) trapsize 1187
+\i (00:20:30) zoom in 1 
+\i (00:20:30) setwindow pcb
+\i (00:20:30) zoom in -15.235 -31.139
+\i (00:20:30) trapsize 593
+\i (00:20:30) zoom out 1 
+\i (00:20:30) setwindow pcb
+\i (00:20:30) zoom out -15.235 -30.901
+\i (00:20:30) trapsize 1187
+\i (00:20:30) zoom out 1 
+\i (00:20:30) setwindow pcb
+\i (00:20:30) zoom out -14.760 -30.427
+\i (00:20:30) trapsize 2374
+\i (00:20:30) zoom out 1 
+\i (00:20:30) setwindow pcb
+\i (00:20:30) zoom out -14.284 -30.427
+\i (00:20:30) trapsize 4748
+\i (00:20:31) pick grid -169.414 18.948
+\t (00:20:31) last pick:  -175.000 25.000
+\i (00:20:31) prepopup -192.202 93.959
+\i (00:20:32) pick grid -255.819 168.020
+\t (00:20:32) last pick:  -250.000 175.000
+\i (00:20:32) pick grid dbl -255.819 168.020
+\t (00:20:32) last pick:  -250.000 175.000
+\i (00:20:34) pick grid -383.052 356.022
+\t (00:20:34) last pick:  -375.000 350.000
+\i (00:21:55) pick grid -194.101 262.021
+\t (00:21:55) last pick:  -200.000 250.000
+\i (00:21:59) pick grid -9.897 0.907
+\t (00:21:59) last pick:  0.000 0.000
+\i (00:22:00) pick grid -222.586 72.120
+\t (00:22:00) last pick:  -225.000 75.000
+\i (00:22:02) pick grid -7.048 24.645
+\t (00:22:02) last pick:  0.000 25.000
+\i (00:22:03) prepopup -7.048 24.645
+\i (00:22:05) pick grid -230.182 57.877
+\t (00:22:05) last pick:  -225.000 50.000
+\i (00:22:08) pick grid -238.728 176.566
+\t (00:22:08) last pick:  -250.000 175.000
+\i (00:22:11) open 
+\i (00:22:14) fillin "menu_cancel"
+\i (00:22:14) etchedit 
+\i (00:25:54) open 
+\i (00:26:04) fillin "laser.dra"
+\t (00:26:04) Opening existing design...
+\i (00:26:04) trapsize 297
+\d (00:26:04) Design opened: D:/mywork/ImmunofluorescenceApparatus/laser/hardware/laser_driver/OrCAD/pcblib/laser.dra
+\i (00:26:04) etchedit 
+\i (00:26:08) add pin 
+\t (00:26:08) Using 'R24X80_BOTTOM.pad'.
+\i (00:26:10) setwindow form.mini
+\i (00:26:10) FORM mini pad_browse  
+\t (00:26:16) No valid name selected.
+\i (00:26:18) fillin "R24x80_Pad"
+\w (00:26:18) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:26:18) Using 'R24X80_PAD.pad'.
+\i (00:26:23) FORM mini next_pin_number 1 
+\i (00:26:24) setwindow pcb
+\i (00:26:24) pick grid 0.3157 -0.2930
+\t (00:26:24) last pick:  0.0000 0.0000
+\t (00:26:24) Using 'R24X80_PAD.pad'.
+\i (00:26:30) pick 1 
+\t (00:26:30) last pick:  1.0000 0.0000
+\t (00:26:30) Using 'R24X80_PAD.pad'.
+\i (00:26:30) roam x -96 
+\i (00:26:30) roam x -96
+\i (00:26:37) pick 2 
+\t (00:26:37) last pick:  2.0000 0.0000
+\t (00:26:37) Using 'R24X80_PAD.pad'.
+\i (00:26:38) prepopup 1.9963 1.4750
+\i (00:26:39) done 
+\t (00:26:39) Exiting from Add Pin.
+\i (00:26:39) etchedit 
+\i (00:26:39) zoom in 1 
+\i (00:26:39) setwindow pcb
+\i (00:26:39) zoom in 2.1921 0.3774
+\i (00:26:39) trapsize 148
+\i (00:26:39) zoom in 1 
+\i (00:26:39) setwindow pcb
+\i (00:26:39) zoom in 2.1921 0.3774
+\i (00:26:39) trapsize 74
+\i (00:26:39) zoom in 1 
+\i (00:26:39) setwindow pcb
+\i (00:26:39) zoom in 2.1921 0.3774
+\i (00:26:39) trapsize 37
+\i (00:26:39) zoom out 1 
+\i (00:26:39) setwindow pcb
+\i (00:26:39) zoom out 2.1343 0.3775
+\i (00:26:39) trapsize 74
+\i (00:26:39) zoom out 1 
+\i (00:26:39) setwindow pcb
+\i (00:26:39) zoom out 2.0260 0.3655
+\i (00:26:39) trapsize 148
+\i (00:26:39) zoom out 1 
+\i (00:26:39) setwindow pcb
+\i (00:26:39) zoom out 1.9638 0.3567
+\i (00:26:39) trapsize 297
+\i (00:26:40) zoom out 1 
+\i (00:26:40) setwindow pcb
+\i (00:26:40) zoom out 1.8808 0.3626
+\i (00:26:40) trapsize 593
+\i (00:26:42) setwindow form.vf_vis
+\i (00:26:42) FORM vf_vis 1 all_colorvisible YES 
+\i (00:26:42) FORM vf_vis 2 all_colorvisible YES 
+\i (00:26:44) FORM vf_vis 1 all_colorvisible NO 
+\i (00:26:45) FORM vf_vis 2 all_colorvisible NO 
+\i (00:26:46) FORM vf_vis 1 all_colorvisible YES 
+\i (00:26:47) FORM vf_vis 1 all_colorvisible NO 
+\i (00:26:48) FORM vf_vis 1 all_colorvisible YES 
+\i (00:26:49) FORM vf_vis 2 all_colorvisible YES 
+\i (00:26:49) FORM vf_vis 1 all_colorvisible NO 
+\i (00:26:50) FORM vf_vis 2 all_colorvisible NO 
+\i (00:26:52) FORM vf_vis 3 all_colorvisible YES 
+\i (00:26:53) FORM vf_vis 2 all_colorvisible YES 
+\i (00:26:53) FORM vf_vis 1 all_colorvisible YES 
+\i (00:26:54) setwindow pcb
+\i (00:26:54) zoom in 1 
+\i (00:26:54) setwindow pcb
+\i (00:26:54) zoom in 1.5841 -0.2425
+\i (00:26:54) trapsize 297
+\i (00:26:54) zoom in 1 
+\i (00:26:54) setwindow pcb
+\i (00:26:54) zoom in 1.5842 -0.2425
+\i (00:26:54) trapsize 148
+\i (00:26:55) zoom out 1 
+\i (00:26:55) setwindow pcb
+\i (00:26:55) zoom out 1.5753 -0.2395
+\i (00:26:55) trapsize 297
+\i (00:26:55) zoom out 1 
+\i (00:26:55) setwindow pcb
+\i (00:26:55) zoom out 1.5338 -0.2216
+\i (00:26:55) trapsize 593
+\i (00:26:56) save 
+\i (00:26:57) fillin yes 
+\e (00:26:58) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:26:58) etchedit 
+\i (00:27:02) setwindow text
+\i (00:27:02) close 
+\i (00:27:11) setwindow pcb
+\i (00:27:11) label refdes 
+\t (00:27:11) Pick text location.
+\i (00:27:13) pick grid 2.8984 0.1580
+\t (00:27:13) last pick:  2.5400 0.0000
+\t (00:27:13) Enter text string.
+\i (00:27:17) setwindow pcb
+\i (00:27:17) pick grid 3.7883 -0.2454
+\t (00:27:17) last pick:  2.5400 0.0000
+\i (00:27:17) setwindow pcb
+\i (00:27:17) pick 2.5400 0.0000
+\i (00:27:19) save 
+\i (00:27:20) fillin yes 
+\t (00:27:21) Symbol 'laser.psm' created.
+\i (00:27:21) etchedit 
+\i (00:27:24) open 
+\i (00:27:31) fillin "D:\mywork\ImmunofluorescenceApparatus\laser\hardware\laser_driver\OrCAD\laser_driver2.brd"
+\i (00:27:31) cd "D:\mywork\ImmunofluorescenceApparatus\laser\hardware\laser_driver\OrCAD"
+\t (00:27:31) Opening existing design...
+\i (00:27:31) trapsize 286
+\i (00:27:31) trapsize 281
+\i (00:27:31) trapsize 286
+\i (00:27:31) trapsize 289
+\i (00:27:31) trapsize 289
+\t (00:27:31)     Journal end - Wed Jul 13 14:18:13 2016

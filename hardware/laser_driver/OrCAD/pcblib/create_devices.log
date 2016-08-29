@@ -1,0 +1,64 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Create_devices LOG file                                          )
+(                                                                     )
+(    Drawing          : SAMA5D3 Xplained RevA.brd                     )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Sun Jul 10 23:55:10 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING(SPMHDF-67): Device 'R0805' occurs multiple times - check the device file.
+WARNING(SPMHDF-67): Device 'R0603' occurs multiple times - check the device file.
+WARNING(SPMHDF-67): Device 'R0402' occurs multiple times - check the device file.
+
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/usbmicro5_4ab.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/sma.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/fpc_50p_05mm.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/r0805.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/r0805__1.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/soc6jm.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/qfn32_1p4m.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/h_s2x18mz.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/tp80.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/c70x68.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/bgaddr84p8b80x125.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/rj45_48f-01gy_p14_4.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/led0805.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/x4s70x15.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/soic8jg.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/sot-23.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/qfn32_1p5h.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/l1008.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/usb8_4b176x145ax2.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/h6m.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/h2x3mz.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/h10m.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/h8m.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/rj45_13f-64gy_p12_4.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/tf01a-m1.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/sd13_5b267x180.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/9g45_stc3216_18_a.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/bga324p8.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/x4s32x25.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/dip20_0_7_2_54.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/tp50.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/r0603.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/qfn48_1p5b.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/c0402.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/sw_tact_4mm5.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/pwc3-1309.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/r0402.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/dip2pin_pitch2mm.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/c0603.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/r0603__1.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/pca82c251_so8m1.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/flash1.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/c0805.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/r0402__1.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/sot23.txt': written successfully.
+Device file 'C:/Users/SUN/Downloads/ATSAMA5D3-XPLD__KitsFiles/ATSAMA5D3-XPLD_PCBA_A/pcblib/l0603.txt': written successfully.
+
+  Created device files: 46
+
