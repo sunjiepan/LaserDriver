@@ -114,15 +114,24 @@ uint8_t Uart1ReadyWrite = SET;
   */
 #define COMPUTATION_DIGITAL_12BITS_TO_VOLTAGE(ADC_DATA)                        \
   ( (ADC_DATA) * VDD_APPLI / RANGE_12BITS)
+	
+#define COMPUTATION_DIGITAL_12BITS_TO_VREF_INT_VOLTAGE(ADC_DATA)                        \
+  ( VREFINT_CAL * VDD_APPLI / (ADC_DATA))
 
 
 /* Variable containing ADC conversions results */
 __IO uint16_t   aADCxConvertedValues[ADCCONVERTEDVALUES_BUFFER_SIZE];
 
+__IO uint16_t VREFINT_CAL;
+
+
 /* Variables for ADC conversions results computation to physical values */
 uint16_t   uhADCChannel0_mVolt = 0;
-uint16_t   uhVrefInt_mVolt = 0;
 uint16_t   uhADCChannel1_mVolt = 0;
+uint16_t   uhADCChannel2_mVolt = 0;
+ int32_t   wTemperature_DegreeCelsius = 0;
+uint16_t   uhVrefInt_mVolt = 0;
+
 
 /* Variable to report ADC sequencer status */
 uint8_t         ubSequenceCompleted = RESET;     /* Set when all ranks of the sequence have been converted */
@@ -186,25 +195,26 @@ int main(void)
   MX_IWDG_Init();
 
   /* USER CODE BEGIN 2 */
-	HAL_IWDG_Start(&hiwdg);
+	
 	HAL_UART_Receive_DMA(&huart1, (uint8_t*)aRxBuffer, RXBUFFERSIZE);
 	laser_ctl.Init();
-	/* Run the ADC calibration */  
-  if (HAL_ADCEx_Calibration_Start(&hadc) != HAL_OK)
-  {
-    /* Calibration Error */
-    Error_Handler();
-  }
-	
-	  /* Start ADC conversion on regular group with transfer by DMA */
-  if (HAL_ADC_Start_DMA(&hadc,
-                        (uint32_t *)aADCxConvertedValues,
-                        ADCCONVERTEDVALUES_BUFFER_SIZE
-                       ) != HAL_OK)
-  {
-    /* Start Error */
-    Error_Handler();
-  }
+//	/* Run the ADC calibration */  
+//  if (HAL_ADCEx_Calibration_Start(&hadc) != HAL_OK)
+//  {
+//    /* Calibration Error */
+//    Error_Handler();
+//  }
+//	
+//	  /* Start ADC conversion on regular group with transfer by DMA */
+//  if (HAL_ADC_Start_DMA(&hadc,
+//                        (uint32_t *)aADCxConvertedValues,
+//                        ADCCONVERTEDVALUES_BUFFER_SIZE
+//                       ) != HAL_OK)
+//  {
+//    /* Start Error */
+//    Error_Handler();
+//  }
+	HAL_IWDG_Start(&hiwdg);
 	
   /* USER CODE END 2 */
 
@@ -224,10 +234,15 @@ int main(void)
 			RxProcessing();
 		}
 		
-		if((HAL_GetTick() - readtickstart) > 10)
+		if((HAL_GetTick() - readtickstart) > DELAY_200MS)
 		{
+			HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
 			readtickstart = HAL_GetTick();
-			
+			//uhVrefInt_mVolt = COMPUTATION_DIGITAL_12BITS_TO_VREF_INT_VOLTAGE(aADCxConvertedValues[3]);
+			//uhADCChannel0_mVolt = COMPUTATION_DIGITAL_12BITS_TO_VOLTAGE(aADCxConvertedValues[0]);
+			//uhADCChannel1_mVolt = COMPUTATION_DIGITAL_12BITS_TO_VOLTAGE(aADCxConvertedValues[1]);
+			//uhADCChannel2_mVolt = COMPUTATION_DIGITAL_12BITS_TO_VOLTAGE(aADCxConvertedValues[2]);
+			//wTemperature_DegreeCelsius = COMPUTATION_TEMPERATURE_STD_PARAMS(aADCxConvertedValues[3]);
 		}
 		
 //		if((HAL_GetTick() - pidtickstart) > DELAY_200MS)
@@ -505,7 +520,7 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *AdcHandle)
 {
   /* Report to main program that ADC sequencer has reached its end */
   ubSequenceCompleted = SET;
-	HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
+	//HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
 }
 
 /**

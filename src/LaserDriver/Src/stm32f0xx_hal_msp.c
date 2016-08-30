@@ -48,6 +48,7 @@ extern	uint8_t aRxBuffer[RXBUFFERSIZE];
 extern	uint8_t aTxBuffer[TXBUFFERSIZE];
 extern	uint8_t Uart1ReadyRead;
 extern	uint8_t Uart1ReadyWrite;
+extern  __IO uint16_t 	VREFINT_CAL;
 
 /* USER CODE END 0 */
 
@@ -116,7 +117,7 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
     HAL_NVIC_SetPriority(ADC1_IRQn, 0, 0);
     HAL_NVIC_EnableIRQ(ADC1_IRQn);
   /* USER CODE BEGIN ADC1_MspInit 1 */
-
+		//VREFINT_CAL = *(__IO uint16_t *)(0X1FFFF7BA);	
   /* USER CODE END ADC1_MspInit 1 */
   }
 

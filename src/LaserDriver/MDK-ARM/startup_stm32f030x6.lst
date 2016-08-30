@@ -361,11 +361,11 @@ ARM Macro Assembler    Page 6
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend=laserdriver\startup_stm32f030x6.d -olaserdriver\startup_stm32f030x
-6.o -IE:\mywork\ImmunofluorescenceApparatus\LaserDriver\src\LaserDriver\MDK-ARM
-\RTE -ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -ID:\Keil_v5\ARM\PACK\
-Keil\STM32F0xx_DFP\1.5.0 --predefine="__MICROLIB SETA 1" --predefine="__UVISION
-_VERSION SETA 514" --predefine="_RTE_ SETA 1" --predefine="STM32F030x6 SETA 1" 
---list=startup_stm32f030x6.lst startup_stm32f030x6.s
+6.o -ID:\mywork\LaserDriver\src\LaserDriver\MDK-ARM\RTE -ID:\Keil_v5\ARM\PACK\A
+RM\CMSIS\4.5.0\CMSIS\Include -ID:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Dev
+ice\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA
+ 514" --predefine="_RTE_ SETA 1" --predefine="STM32F030 SETA 1" --list=startup_
+stm32f030x6.lst startup_stm32f030x6.s
 
 
 
