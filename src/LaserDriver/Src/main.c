@@ -65,7 +65,7 @@ uint8_t Uart1ReadyWrite = SET;
 #define RANGE_12BITS                   ((uint32_t) 4095)   /* Max value with a full range of 12 bits */
 #define USERBUTTON_CLICK_COUNT_MAX     ((uint32_t)    4)   /* Maximum value of variable "UserButtonClickCount" */
 
-#define ADCCONVERTEDVALUES_BUFFER_SIZE ((uint32_t)    1)   /* Size of array containing ADC converted values: set to ADC sequencer number of ranks converted, to have a rank in each address */
+#define ADCCONVERTEDVALUES_BUFFER_SIZE ((uint32_t)    2)   /* Size of array containing ADC converted values: set to ADC sequencer number of ranks converted, to have a rank in each address */
 
 /* Internal temperature sensor: constants data used for indicative values in  */
 /* this example. Refer to device datasheet for min/typ/max values.            */
@@ -120,7 +120,7 @@ uint8_t Uart1ReadyWrite = SET;
 
 
 /* Variable containing ADC conversions results */
-__IO uint16_t   aADCxConvertedValues[ADCCONVERTEDVALUES_BUFFER_SIZE];
+__IO uint32_t   aADCxConvertedValues[ADCCONVERTEDVALUES_BUFFER_SIZE];
 
 __IO uint16_t VREFINT_CAL;
 
@@ -198,22 +198,22 @@ int main(void)
 	
 	HAL_UART_Receive_DMA(&huart1, (uint8_t*)aRxBuffer, RXBUFFERSIZE);
 	laser_ctl.Init();
-//	/* Run the ADC calibration */  
-//  if (HAL_ADCEx_Calibration_Start(&hadc) != HAL_OK)
-//  {
-//    /* Calibration Error */
-//    Error_Handler();
-//  }
-//	
-//	  /* Start ADC conversion on regular group with transfer by DMA */
-//  if (HAL_ADC_Start_DMA(&hadc,
-//                        (uint32_t *)aADCxConvertedValues,
-//                        ADCCONVERTEDVALUES_BUFFER_SIZE
-//                       ) != HAL_OK)
-//  {
-//    /* Start Error */
-//    Error_Handler();
-//  }
+	/* Run the ADC calibration */  
+  if (HAL_ADCEx_Calibration_Start(&hadc) != HAL_OK)
+  {
+    /* Calibration Error */
+    Error_Handler();
+  }
+	
+	/* Start ADC conversion on regular group with transfer by DMA */
+  if (HAL_ADC_Start_DMA(&hadc,
+                        (uint32_t *)aADCxConvertedValues,
+                        ADCCONVERTEDVALUES_BUFFER_SIZE
+                       ) != HAL_OK)
+  {
+    /* Start Error */
+    Error_Handler();
+  }
 	HAL_IWDG_Start(&hiwdg);
 	
   /* USER CODE END 2 */
@@ -238,8 +238,8 @@ int main(void)
 		{
 			HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
 			readtickstart = HAL_GetTick();
-			//uhVrefInt_mVolt = COMPUTATION_DIGITAL_12BITS_TO_VREF_INT_VOLTAGE(aADCxConvertedValues[3]);
-			//uhADCChannel0_mVolt = COMPUTATION_DIGITAL_12BITS_TO_VOLTAGE(aADCxConvertedValues[0]);
+			uhVrefInt_mVolt = COMPUTATION_DIGITAL_12BITS_TO_VREF_INT_VOLTAGE(aADCxConvertedValues[1]);
+			uhADCChannel0_mVolt = COMPUTATION_DIGITAL_12BITS_TO_VOLTAGE(aADCxConvertedValues[0]);
 			//uhADCChannel1_mVolt = COMPUTATION_DIGITAL_12BITS_TO_VOLTAGE(aADCxConvertedValues[1]);
 			//uhADCChannel2_mVolt = COMPUTATION_DIGITAL_12BITS_TO_VOLTAGE(aADCxConvertedValues[2]);
 			//wTemperature_DegreeCelsius = COMPUTATION_TEMPERATURE_STD_PARAMS(aADCxConvertedValues[3]);
@@ -271,7 +271,10 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.HSICalibrationValue = 16;
   RCC_OscInitStruct.LSIState = RCC_LSI_ON;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL12;
+  RCC_OscInitStruct.PLL.PREDIV = RCC_PREDIV_DIV1;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -279,10 +282,10 @@ void SystemClock_Config(void)
 
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_1) != HAL_OK)
   {
     Error_Handler();
   }
@@ -332,7 +335,15 @@ static void MX_ADC_Init(void)
     */
   sConfig.Channel = ADC_CHANNEL_0;
   sConfig.Rank = ADC_RANK_CHANNEL_NUMBER;
-  sConfig.SamplingTime = ADC_SAMPLETIME_1CYCLE_5;
+  sConfig.SamplingTime = ADC_SAMPLETIME_239CYCLES_5;
+  if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+    /**Configure for the selected ADC regular channel to be converted. 
+    */
+  sConfig.Channel = ADC_CHANNEL_VREFINT;
   if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK)
   {
     Error_Handler();
@@ -435,7 +446,7 @@ static void MX_DMA_Init(void)
 
   /* DMA interrupt init */
   /* DMA1_Channel1_IRQn interrupt configuration */
-  HAL_NVIC_SetPriority(DMA1_Channel1_IRQn, 0, 0);
+  HAL_NVIC_SetPriority(DMA1_Channel1_IRQn, 1, 0);
   HAL_NVIC_EnableIRQ(DMA1_Channel1_IRQn);
   /* DMA1_Channel2_3_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(DMA1_Channel2_3_IRQn, 0, 0);
@@ -508,29 +519,19 @@ void TxProcessing(void)
 	if(TxRead(aTxBuffer, sizeof(CustomProtocol_TypeDef)) > 0)
 		HAL_UART_Transmit_DMA(&huart1, aTxBuffer, sizeof(CustomProtocol_TypeDef));
 }
-
-/**
-  * @brief  Conversion complete callback in non blocking mode
-  * @param  AdcHandle : AdcHandle handle
-  * @note   This example shows a simple way to report end of conversion
-  *         and get conversion result. You can add your own implementation.
-  * @retval None
-  */
-void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *AdcHandle)
-{
-  /* Report to main program that ADC sequencer has reached its end */
-  ubSequenceCompleted = SET;
-	//HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
-}
-
-/**
-  * @brief  Conversion DMA half-transfer callback in non blocking mode 
+/*
+  * @brief  Conversion complete callback in non blocking mode 
   * @param  hadc: ADC handle
   * @retval None
   */
-void HAL_ADC_ConvHalfCpltCallback(ADC_HandleTypeDef* hadc)
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 {
+  /* Prevent unused argument(s) compilation warning */
+	//HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
 
+  /* NOTE : This function should not be modified. When the callback is needed,
+            function HAL_ADC_ConvCpltCallback must be implemented in the user file.
+   */
 }
 
 /**
